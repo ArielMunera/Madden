@@ -21,7 +21,7 @@ export class AppComponent {
     private canvas: any;
     private ctx: any;
   
-    private clicked: boolean = false;
+    public clicked: boolean = false;
   
     public innerWidth: number;
   
