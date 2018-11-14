@@ -56,7 +56,7 @@ export class AppComponent {
     public launch(): void {
       this.disableAutoFireworks = false;
       this.clicked = true;
-      //this.loop();
+      this.loop();
     }
   
     public changePosition(time: number) {
