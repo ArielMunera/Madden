@@ -32,14 +32,14 @@ export class AppComponent {
       this.canvas = document.getElementById('canvas');
       this.ctx = this.canvas.getContext('2d');
       this.test = 0;
-      console.log("On Init");
+      //console.log("On Init");
     }
   
     ngDoCheck(){
     }
   
     ngAfterViewInit() {
-      console.log("After View Init");
+      //console.log("After View Init");
       this.onResize('');
     }
   
@@ -147,7 +147,7 @@ export class AppComponent {
     @HostListener('window:resize', ['$event'])
     onResize(event) {
       this.innerWidth = window.innerWidth;
-      console.log("On Resize")
+      //console.log("On Resize")
       if (this.innerWidth <= 900) {
         const target = document.getElementById("faut-cliquer");
         setInterval(function () {
@@ -157,7 +157,7 @@ export class AppComponent {
           let randomY = (hauteurMax * 0) + Math.random() * (hauteurMax - (hauteurMax * 0.1));
           target.style.bottom = randomY + "px";
           target.style.left = randomX + "px";
-        }, 600);
+        }, 800);
       } else {
       }
     }
