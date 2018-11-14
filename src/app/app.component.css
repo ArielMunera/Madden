@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'CarnevaleeFreakshow';
+    src: url('../assets/fonts/Carnevalee_Freakshow.ttf') format('truetype');
+}
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+#faut-cliquer {
+  position: absolute;
+  bottom: 50vh;
+  left: 47%;
+  background-color: dimgray;
+  border-color: gray;
+  width: 10vw;
+  height: 10vh;
+  text-decoration: none;
+}
+
+#stop {
+  position: absolute;
+  bottom: 2vh;
+  left: 95%;
+  background-color: gray;
+  width: 2.5%;
+  height: 2.5vh;
+  text-align: center;
+  border-color: dimgray;
+}
+
+#you-won {
+  position: absolute;
+  bottom: 40vh;
+  left: 36%;
+  color: green;
+  font-family: 'CarnevaleeFreakshow';
+  font-size: 8rem;
+}
+
+#first-text {
+  position: absolute;
+  bottom: 55vh;
+  left: 40%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
